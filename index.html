@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./src/css/content/form/content-form.css">
   <link rel="stylesheet" href="./src/css/footer/footer.css">
   <link rel="stylesheet" href="./src/css/footer/footer-icons/footer-icons.css">
+  <script src="https://kit.fontawesome.com/9e3731cca8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,15 +25,16 @@
   </header>
 
   <main class="content">
-    <h1 class="content__title">We are launching soon!</h1>
+    <h1 class="content__title">We are launching <strong>soon!</strong></h1>
     <h2 class="content__subtitle">Subscribe and get notified</h2>
 
     <form class="content__form">
       <fieldset class="form">
         <input class="form__input" type="email" placeholder="Your email address..." id="email" data-type="email"
           required>
-        <button class="form__button">Notify Me</button>
+        <span class="form__span form-error__span">Please  provide a valid email address</span>
       </fieldset>
+      <button class="form__button">Notify Me</button>
     </form>
 
     <img class="content__image" src="./src/assets/illustration-dashboard.png" alt="">
@@ -40,9 +42,15 @@
 
   <footer class="footer">
     <div class="footer__icons">
-      <div class="footer__icon" id="icon-facebook"></div>
-      <div class="footer__icon" id="icon-twitter"></div>
-      <div class="footer__icon" id="icon-instagram"></div>
+      <span class="footer__icon">
+        <i  id="icon-facebook" class="fa-brands fa-facebook-f fa-xs fa-border" style="padding: 13px 9px; border-radius: 50px;"></i>
+      </span>
+      <span class="footer__icon" id="icon-twitter">
+        <i class="fa-brands fa-twitter fa-xs fa-border" style="padding: 14px 7px; border-radius: 50px;"></i>
+      </span>
+      <span class="footer__icon" id="icon-instagram">
+        <i class="fa-brands fa-instagram fa-xs fa-border" style="padding: 14px 9px; border-radius: 50px;"></i>
+      </span>
     </div>
     <p class="footer__text">&copy; Copyright Ping. All rights reserved.</p>
   </footer>

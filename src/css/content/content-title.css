@@ -1,3 +1,11 @@
 .content__title {
+  color: var(--gray);
+  font-weight: var(--300);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 
+.content__title strong {
+  color: var(--dark-blue);
+  font-weight: var(--700);
 }

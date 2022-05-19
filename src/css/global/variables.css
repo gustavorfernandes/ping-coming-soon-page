@@ -4,6 +4,10 @@
   --pale-blue: hsl(223, 100%, 88%);
   --ligth-red: hsl(354, 100%, 66%);
   --gray: hsl(0, 0%, 59%);
+  --white: #ffffff;
 
   --libre-franklin: 'Libre Franklin', sans-serif;
+  --300: 300;
+  --600: 600;
+  --700: 700;
 }

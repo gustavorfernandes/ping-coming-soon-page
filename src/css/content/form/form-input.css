@@ -1,0 +1,18 @@
+.form__input {
+  border: solid .1px;
+  border-color: var(--pale-blue);
+  border-radius: 30px;
+  padding: .75rem .75rem .75rem 1.5rem;
+  font-size: .85rem;
+  width: 100%;
+  margin-bottom: .75rem;
+  box-sizing: border-box;
+}
+
+.form__input::placeholder {
+  color: var(--pale-blue);
+}
+
+.form-error__input {
+  border-color: var(--ligth-red);
+}

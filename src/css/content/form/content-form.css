@@ -1,7 +1,13 @@
 @import url(./form.css);
 @import url(./form-input.css);
+@import url(./form-span.css);
 @import url(./form-button.css);
 
 .content__form {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2.5rem;
 }

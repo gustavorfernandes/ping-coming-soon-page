@@ -1,3 +1,5 @@
 .content__subtitle {
-
+  font-size: .75rem;
+  font-weight: var(--300);
+  margin-bottom: 2.25rem;
 }
