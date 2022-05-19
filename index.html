@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/assets/favicon-32x32.png">
+  <title>Ping coming soon page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/global/global.css">
+  <link rel="stylesheet" href="./src/css/header/header.css">
+  <link rel="stylesheet" href="./src/css/content/content.css">
+  <link rel="stylesheet" href="./src/css/content/form/content-form.css">
+  <link rel="stylesheet" href="./src/css/footer/footer.css">
+  <link rel="stylesheet" href="./src/css/footer/footer-icons/footer-icons.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <img class="header__logo" src="./src/assets/logo.svg" alt="Ping.">
+  </header>
+
+  <main class="content">
+    <h1 class="content__title">We are launching soon!</h1>
+    <h2 class="content__subtitle">Subscribe and get notified</h2>
+
+    <form class="content__form">
+      <fieldset class="form">
+        <input class="form__input" type="email" placeholder="Your email address..." id="email" data-type="email"
+          required>
+        <button class="form__button">Notify Me</button>
+      </fieldset>
+    </form>
+
+    <img class="content__image" src="./src/assets/illustration-dashboard.png" alt="">
+  </main>
+
+  <footer class="footer">
+    <div class="footer__icons">
+      <div class="footer__icon" id="icon-facebook"></div>
+      <div class="footer__icon" id="icon-twitter"></div>
+      <div class="footer__icon" id="icon-instagram"></div>
+    </div>
+    <p class="footer__text">&copy; Copyright Ping. All rights reserved.</p>
+  </footer>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
