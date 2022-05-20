@@ -2,10 +2,9 @@
 
 .footer {
   align-items: center;
-  bottom: 4vh;
   display: flex;
   flex-direction: column;
   gap: 1.75rem;
   justify-content: center;
-  position: absolute;
+  margin-bottom: 3rem;
 }

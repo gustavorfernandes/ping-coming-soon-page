@@ -1,5 +1,4 @@
 .content__image {
-  bottom: 25vh;
-  position: absolute;
-  width: 90%;
+  margin-bottom: 8rem;
+  width: 100%;
 }
