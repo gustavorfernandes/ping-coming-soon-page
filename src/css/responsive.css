@@ -78,3 +78,15 @@
     font-size: .85rem;
   }
 }
+
+@media screen and (max-height: 768px) {
+  .content__image {
+    position: initial;
+    margin-bottom: 3rem;
+  }
+
+  .footer {
+    position: initial;
+    margin-bottom: 2rem;
+  }
+}
