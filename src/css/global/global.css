@@ -8,5 +8,7 @@ body {
  font-family: var(--libre-franklin);
  font-size: 20px;
  justify-content: center;
+ margin: auto;
+ max-width: 540px;
  width: 100vw;
 }

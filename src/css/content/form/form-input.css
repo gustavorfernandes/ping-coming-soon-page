@@ -2,11 +2,11 @@
   border: solid .1px;
   border-color: var(--pale-blue);
   border-radius: 30px;
-  padding: .75rem .75rem .75rem 1.5rem;
-  font-size: .85rem;
-  width: 100%;
-  margin-bottom: .75rem;
   box-sizing: border-box;
+  font-size: .85rem;
+  padding: .75rem .75rem .75rem 1.5rem;
+  margin-bottom: .5rem;
+  width: 100%;
 }
 
 .form__input::placeholder {
@@ -15,4 +15,8 @@
 
 .form-error__input {
   border-color: var(--ligth-red);
+}
+
+.form-error__input::placeholder {
+  color: var(--dark-blue);
 }

@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./src/css/content/form/content-form.css">
   <link rel="stylesheet" href="./src/css/footer/footer.css">
   <link rel="stylesheet" href="./src/css/footer/footer-icons/footer-icons.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
   <script src="https://kit.fontawesome.com/9e3731cca8.js" crossorigin="anonymous"></script>
 </head>
 
@@ -32,7 +33,7 @@
       <fieldset class="form">
         <input class="form__input" type="email" placeholder="Your email address..." id="email" data-type="email"
           required>
-        <span class="form__span form-error__span">Please  provide a valid email address</span>
+        <span class="form__span">Please  provide a valid email address</span>
       </fieldset>
       <button class="form__button">Notify Me</button>
     </form>
@@ -43,18 +44,18 @@
   <footer class="footer">
     <div class="footer__icons">
       <span class="footer__icon">
-        <i  id="icon-facebook" class="fa-brands fa-facebook-f fa-xs fa-border" style="padding: 13px 9px; border-radius: 50px;"></i>
+        <i  id="icon-facebook" class="fa-brands fa-facebook-f fa-xs fa-border" style="padding: 13px 9px; border-radius: 50px; cursor: pointer"></i>
       </span>
       <span class="footer__icon" id="icon-twitter">
-        <i class="fa-brands fa-twitter fa-xs fa-border" style="padding: 14px 7px; border-radius: 50px;"></i>
+        <i class="fa-brands fa-twitter fa-xs fa-border" style="padding: 14px 7px; border-radius: 50px; cursor: pointer"></i>
       </span>
       <span class="footer__icon" id="icon-instagram">
-        <i class="fa-brands fa-instagram fa-xs fa-border" style="padding: 14px 9px; border-radius: 50px;"></i>
+        <i class="fa-brands fa-instagram fa-xs fa-border" style="padding: 14px 9px; border-radius: 50px; cursor: pointer"></i>
       </span>
     </div>
     <p class="footer__text">&copy; Copyright Ping. All rights reserved.</p>
   </footer>
-  <script src="./src/js/index.js"></script>
+  <script src="./src/js/app.js" type="module"></script>
 </body>
 
 </html>

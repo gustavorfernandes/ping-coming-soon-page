@@ -1,9 +1,11 @@
 @import url(./footer-text.css);
 
 .footer {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  bottom: 4vh;
+  display: flex;
   flex-direction: column;
   gap: 1.75rem;
+  justify-content: center;
+  position: absolute;
 }

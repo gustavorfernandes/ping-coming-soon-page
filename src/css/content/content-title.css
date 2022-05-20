@@ -1,7 +1,7 @@
 .content__title {
   color: var(--gray);
-  font-weight: var(--300);
   font-size: 1.5rem;
+  font-weight: var(--300);
   margin-bottom: 1.5rem;
 }
 
